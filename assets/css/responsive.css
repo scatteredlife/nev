@@ -1,0 +1,524 @@
+﻿@media (max-width: 1601px) {
+    #footer-logo {
+        padding-left: 15px;
+        max-width: 190px;
+    }
+}
+
+@media (max-width: 1580px) {
+    #footer-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1370px) {
+    header {
+        background-size:  60% auto;
+    }
+
+        header .head {
+            margin-top: 13%
+        }
+
+   header  #logo {
+        top: 45px;
+    }
+
+    #logo img {
+        height: 138px;
+    }
+
+    #menu-toggle {
+        top: 10px;
+        right: 60px;
+    }
+
+    #footer-logo {
+        display: none;
+    }
+
+    
+
+        section.about-us .video img {
+            width: 100%;
+        }
+
+    section.about-us {
+        margin-top: 25rem;
+        padding-bottom: 10rem;
+    }
+
+        section.about-us h2 {
+            margin-top: 8.5rem;
+        }
+
+    .services-item:first-child > div > img.thumbnail {
+        margin-right: 120px;
+    }
+
+    .what-happening.news h2 {
+        margin-bottom: 80px;
+    }
+}
+
+
+@media (max-width: 1220px) {
+	.btn.play-button {
+		width: 70px;
+		height: 70px;
+	}
+	
+    body {
+        font-size: 12px;
+    }
+
+    .head h1 {
+        font-size: 36px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .head p {
+        font-size: 14px;
+    }
+
+    header .head {
+        max-width: 60%;
+    }
+
+    #logo img {
+        height: 115px;
+    }
+
+    header #logo {
+        top: 32px;
+        left: 32px;
+    }
+
+    .feature-items h3 {
+        font-size: 14px;
+    }
+
+    section.four-features,
+	section.products-home	{
+        padding-top: 5rem;
+    }
+
+    section.about-us h2 {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    section.about-us .large {
+        font-size: 40px;
+    }
+
+    section.about-us .small {
+        font-size: 12px;
+    }
+
+    section.about-us p {
+        font-weight: normal;
+    }
+
+    section.what-happening {
+        padding-top: 50px;
+    }
+
+        section.what-happening h2 {
+            margin-bottom: 40px;
+        }
+
+    .grid-item h3 {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    .grid-item .sub-info {
+        margin-bottom: 18px;
+    }
+
+    .grid-item {
+        padding-bottom: 25px;
+    }
+
+    section.testimonials {
+        padding-top: 25px;
+    }
+
+    section.clients {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    section.parteners {
+        padding-bottom: 100px;
+    }
+
+    section.let-connect {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+        section.let-connect input[type="email"] {
+            padding: 29px 29px 30px 29px;
+        }
+}
+
+@media (max-width: 991px) {
+    section.about-us-page h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.about-us-page {
+        padding-bottom: 0;
+    }
+
+    .profile-item {
+        width: 45%;
+    }
+
+    .profile-item:nth-child(2n+1) {
+        margin-right: 10%;
+    }
+
+    .tabs .tab-item {
+        font-size: 12px;
+        max-width: 120px;
+        white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .clients-logo {		
+           -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;		
+    }
+    .btn.btn-success {
+        padding: 15px 31px;
+    }
+
+    section.let-connect input[type="email"] {
+        padding: 22px 29px 25px 20px;
+    }
+
+    .btn.btn-linkedin {
+        width: 100%;
+        padding: 15px 10px 15px 30px;
+    }
+
+        .btn.btn-linkedin .fa {
+            font-size: 20px;
+            top: 13px;
+            left: 16px;
+        }
+
+    .services-item:not(:first-child) {
+        margin-top: 100px;
+    }
+
+    section.not-found .big-404 {
+        font-size: 120px;
+    }
+
+    section.not-found p {
+        font-size: 14px;
+    }
+
+    section.not-found input[type="text"] {
+        padding: 19px 25px;
+    }
+
+    section.not-found .btn {
+        padding: 10px 25px 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    .partners-logo img {
+        max-width: 25vw;
+    }
+    section .big-header {
+        margin: 0;
+    }
+    .carousel-wrapper .btn.btn-right,
+    .carousel-wrapper .btn.btn-left {
+        display: none;
+    }
+    
+    .services-item:first-child > div > img.thumbnail {
+        display: none;
+    }
+
+    .services-item .thumbnail {
+        display: none;
+    }
+
+    .services-item:not(:first-child) {
+        margin-top: 0;
+    }
+
+    section.not-found {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .image-wrapper img {
+        width: 25%;
+    }
+
+    
+    .about-us-page .image-wrapper:after {
+        width: 30%;
+        position: absolute;
+        right: 0;
+    }
+
+    section.about-us-page p {
+        line-height: 18px;
+    }
+
+    section.about-us-page .image-wrapper.left {
+        display: none;
+    }
+
+    section.our-team .col-sm-4 {
+        clear: both;
+    }
+
+  .clients-logo > div,
+   .partners-logo  > a {
+        -webkit-flex-basis: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+	.video.play .video-wrapper {
+	    z-index: 5
+	}
+	.videos-carousel-wrapper {
+		width: 100%;
+		margin-top: -30%;
+	}
+	
+	.play-button {
+		width: 40px;
+		margin-top: -20px;
+		margin-left: -20px;
+	}
+	
+    .partners-logo img {
+        max-width: 35vw;
+        margin: 15px;
+    }
+
+    section.services, section.privacy {
+        margin-top: 50px 
+    }
+
+    .btn.play-button {
+        transform: scale(0.4);
+    }
+    section.about-us-page,
+    #map {
+        margin-top: 50px;
+    }
+
+    section.contact .detail-info {
+        margin-top: 40px;
+    }
+
+    .grid-item {
+        margin-bottom: 15px;
+    }
+
+    .pagination-wrapper {
+        margin-bottom: 20px
+    }
+
+    .pagination-wrapper .pagination {
+        padding-top: 0;
+    }
+
+    .what-happening.news h2 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    section.about-us-page .top, section.about-us-page .bot {
+        margin-top: 40px;
+    }
+
+    section.about-us-page h3 {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    header .menu-cover {
+        position: fixed;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    header nav .menu {
+        padding: 30px 30px 30px;
+        min-height: 560px;
+    }
+
+    header nav .menu a {
+        padding: 5px 20px 5px 0;
+    }
+
+    header #logo {
+        top: 25px;
+        left: 15px;
+    }
+
+    #logo img {
+        height: 80px;
+    }
+
+    .head h1 {
+        font-size: 30px;
+    }
+
+    header .head {
+        max-width: 90%;
+        margin-top: 30%;
+    }
+
+    .head h1, .head p {
+        margin-bottom: 20px;
+    }
+
+    section.four-features,
+	section.products-home {
+        padding-top: 1rem;
+    }
+
+    section.four-features .row {
+        position: relative;
+        height: 30vh;
+        margin: 0;
+    }
+
+    section.four-features .feature-items {
+        position: absolute;
+        background-color: #e9e4d9;
+        padding: 0;
+        width: 100%;
+    }
+
+        section.four-features .feature-items h3,
+        section.four-features .feature-items p {
+            display: none;
+        }
+
+    section.four-features .feature-items .top {
+        width: 25%;
+    }
+
+       section.four-features .feature-items .top img {
+            height: 25px;
+        }
+
+    section.four-features .feature-items .top {
+        height: 38px;
+        border-bottom: solid 2px #c8bba0;
+        background-color: #d8cfbc;
+        z-index: 1;
+        position: relative;
+    }
+
+    section.four-features .feature-items:first-child .top img {
+        height: 28px;
+        position: relative;
+        top: -4px;
+    }
+
+    section.four-features .feature-items:nth-child(2) .top {
+        left: 25%;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 5px;
+    }
+
+    section.four-features .feature-items:nth-child(3) .top {
+        left: 50%;
+        position: relative;
+        z-index: 3;
+        padding-bottom: 5px;
+    }
+
+    section.four-features .feature-items:nth-child(4) .top {
+        left: 75%;
+        position: relative;
+        z-index: 4;
+        padding-bottom: 5px;
+    }
+
+    section.four-features .feature-items.active .top {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+     section.four-features  .feature-items.active p,  section.four-features  .feature-items.active h3 {
+        display: block;
+    }
+
+    .feature-items.active h3 {
+        width: 80%;
+        padding: 20px 20px 0 20px;
+        text-align: left;
+    }
+
+    .feature-items.active p {
+        padding: 20px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+
+    section.about-us {
+        margin-top: 29rem;
+    }
+
+        section.about-us .video {
+            max-width: 100%;
+        }
+
+    .partners-logo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    section.parteners {
+        padding-bottom: 50px;
+    }
+
+    section.let-connect input[type="email"] {
+        display: inline;
+        width: 100%;
+    }
+
+    .btn.btn-contact {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .let-connect .row .form-inline {
+        position: relative;
+    }
+
+    section.let-connect p {
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+}
