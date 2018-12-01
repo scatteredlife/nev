@@ -743,6 +743,37 @@
     <script src="assets/libs/jquery-magnific/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <!-- Page Specific JS Libraries End -->
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '604387326268267',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+	
+	FB.login(function(response) {
+		if (response.authResponse) {
+		 console.log('Welcome!  Fetching your information.... ');
+		 FB.api('/me', function(response) {
+		   console.log('Good to see you, ' + response.name + '.');
+		 });
+		} else {
+		 console.log('User cancelled login or did not fully authorize.');
+		}
+	  });
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+   
+};
+    
+</script>
     <script>
         var resizefunc = [];
 
@@ -825,6 +856,20 @@
             // Parameters has to be in square bracket '[]'
             owl3.trigger('prev.owl.carousel');
         })
+		
+		
+		
+		$(document).ready(function() {
+		  $.ajaxSetup({ cache: true });
+		  $.getScript('https://connect.facebook.net/en_US/sdk.js', function(a){
+			FB.init({
+			  appId: '{604387326268267}',
+			  version: 'v2.7' // or v2.1, v2.2, v2.3, ...
+			});     
+			$('#loginbutton,#feedbutton').removeAttr('disabled');
+			FB.getLoginStatus(alert(a));
+		  });
+		});
     </script>
 </body>
 </html>
